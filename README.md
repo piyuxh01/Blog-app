@@ -14,13 +14,9 @@ Copy code
 git clone https://github.com/piyuxh01/blog-app.git
 Navigate to the project directory:
 
-bash
-Copy code
 `cd blog-app-api`
 Install dependencies:
 
-bash
-Copy code
 `npm install`
 ⚙️ Configuration
 Before launching the API, let's configure it. Rename the .env.example file to .env and customize the following variables:
@@ -31,9 +27,7 @@ JWT_SECRET: Set a secret key for JWT (JSON Web Token) authentication.
 🚀 Launching the API
 Ready for liftoff? Start the API server with the following command:
 
-bash
-Copy code
-npm start
+`npm start`
 🛣️ API Endpoints
 Authentication
 POST /api/auth/register
